@@ -1,17 +1,19 @@
 import React from "react";
+import classes from "./Profile.module.css"
+import MyPosts from "./MyPosts/MyPosts";
 
 const Profile = () => {
   return (
-    <div>
+    <div className={classes.content}>
       <img
-        className="background"
+        className={classes.background}
         src="https://img.freepik.com/premium-photo/abstract-floral-watercolor-background-paper_949459-3814.jpg"
       ></img>
 
       <div>ava</div>
 
-      <div>My posts</div>
-      <div>Patrion ET 1255</div>
+      <MyPosts />
+
     </div>
   );
 };

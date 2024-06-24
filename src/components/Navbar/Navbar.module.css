@@ -1,0 +1,15 @@
+.nav {
+    grid-area: n;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.item {
+    text-transform: uppercase;
+    line-height: 1.7;
+}
+
+.item.active {
+    color: goldenrod;
+    font-weight: bold;
+}
